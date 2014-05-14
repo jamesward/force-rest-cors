@@ -1,0 +1,8 @@
+{
+  "name": "gulp-starter",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap": "~3.1.1"
+  }
+}

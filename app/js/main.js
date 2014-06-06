@@ -1,7 +1,7 @@
 angular.module("myApp", ["ui.bootstrap"])
   .controller("ForceJson", function($scope,  $http) {
 
-    var baseurl = "https://na9-salesforce.herokuapp.com/services/data/v20.0/query/";
+    var baseurl = "https://sfdc-cors.herokuapp.com/services/data/v30.0/query/";
 
     $scope.doQuery = function() {
       var url = baseurl + "?q=" + $scope.query;

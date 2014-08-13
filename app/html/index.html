@@ -12,16 +12,14 @@
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Hello, World</a>
+            <button type="button" class="btn btn-default navbar-btn navbar-right" ng-controller="ForceLogin" ng-click="login()">Login</button>
         </div>
     </nav>
     <div class="container">
-        <div ng-controller="ForceJson">
+        <div ng-controller="ForceQuery">
             <form ng-submit="doQuery()" role="form">
                 <div class="form-group">
                     <input placeholder="SOQL Query" ng-model="query" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input placeholder="Auth Token" ng-model="authToken" class="form-control">
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-default">Submit</button>
